@@ -1,0 +1,10 @@
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculator\bin\Debug\BeerCalculator.exe.config
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculator\bin\Debug\BeerCalculator.exe
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculator\bin\Debug\BeerCalculator.pdb
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculator\obj\Debug\BeerCalculator.csprojAssemblyReference.cache
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculator\obj\Debug\BeerCalculator.Properties.Resources.resources
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculator\obj\Debug\BeerCalculator.csproj.GenerateResource.cache
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculator\obj\Debug\BeerCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculator\obj\Debug\BeerCalculator.exe
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculator\obj\Debug\BeerCalculator.pdb
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculator\obj\Debug\BeerCalculator.MainForm.resources

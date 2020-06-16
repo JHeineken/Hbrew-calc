@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BeerCalculatorWinForms.Properties {
+namespace BeerCalculator.Properties {
     using System;
     
     
@@ -57,16 +57,6 @@ namespace BeerCalculatorWinForms.Properties {
             }
             set {
                 resourceCulture = value;
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ColorChart1 {
-            get {
-                object obj = ResourceManager.GetObject("ColorChart1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

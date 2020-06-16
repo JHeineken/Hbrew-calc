@@ -41,14 +41,17 @@ namespace BeerCalculatorWinForms
 
             var gal = Convert.ToDouble(BatchSizeTextBox.Text);
 
-            var srmResult = Calculations.GetColor(g1, g2, gal);
+            var srmResult = Calculations.GetSRM(g1, g2, gal);
             var gravResult = Calculations.GetGrav(g1, g2, gal);
+            var color = Calculations.GetColor(Convert.ToInt32(srmResult));
 
 
             gravResult = Calculations.ConvertFormat(gravResult);
 
             EstimatedOGTextBox.Text = Convert.ToString(gravResult);
             EstimatedColorTextBox.Text = Convert.ToString(srmResult);
+            ColorLabel.BackColor = color;
+            
 
         }
 

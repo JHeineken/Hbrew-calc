@@ -60,7 +60,7 @@
             this.PoundsTextBox1.Size = new System.Drawing.Size(100, 22);
             this.PoundsTextBox1.TabIndex = 0;
             this.PoundsTextBox1.Text = "0.0";
-            this.PoundsTextBox1.TextChanged += new System.EventHandler(this.TextBoxChange);
+            this.PoundsTextBox1.Validating += new System.ComponentModel.CancelEventHandler(this.OnNumericTextBoxValidating);
             // 
             // GravityTextBox1
             // 
@@ -69,7 +69,7 @@
             this.GravityTextBox1.Size = new System.Drawing.Size(100, 22);
             this.GravityTextBox1.TabIndex = 1;
             this.GravityTextBox1.Text = "0";
-            this.GravityTextBox1.TextChanged += new System.EventHandler(this.TextBoxChange);
+            this.GravityTextBox1.Validating += new System.ComponentModel.CancelEventHandler(this.OnNumericTextBoxValidating);
             // 
             // poundsLabel
             // 
@@ -96,7 +96,7 @@
             this.SRMTextBox1.Size = new System.Drawing.Size(100, 22);
             this.SRMTextBox1.TabIndex = 2;
             this.SRMTextBox1.Text = "0";
-            this.SRMTextBox1.TextChanged += new System.EventHandler(this.TextBoxChange);
+            this.SRMTextBox1.Validating += new System.ComponentModel.CancelEventHandler(this.OnNumericTextBoxValidating);
             // 
             // srmLabel
             // 
@@ -132,7 +132,7 @@
             this.PoundsTextBox2.Size = new System.Drawing.Size(100, 22);
             this.PoundsTextBox2.TabIndex = 3;
             this.PoundsTextBox2.Text = "0.0";
-            this.PoundsTextBox2.TextChanged += new System.EventHandler(this.TextBoxChange);
+            this.PoundsTextBox2.Validating += new System.ComponentModel.CancelEventHandler(this.OnNumericTextBoxValidating);
             // 
             // SRMTextBox2
             // 
@@ -141,7 +141,7 @@
             this.SRMTextBox2.Size = new System.Drawing.Size(100, 22);
             this.SRMTextBox2.TabIndex = 5;
             this.SRMTextBox2.Text = "0";
-            this.SRMTextBox2.TextChanged += new System.EventHandler(this.TextBoxChange);
+            this.SRMTextBox2.Validating += new System.ComponentModel.CancelEventHandler(this.OnNumericTextBoxValidating);
             // 
             // GravityTextBox2
             // 
@@ -150,7 +150,7 @@
             this.GravityTextBox2.Size = new System.Drawing.Size(100, 22);
             this.GravityTextBox2.TabIndex = 4;
             this.GravityTextBox2.Text = "0";
-            this.GravityTextBox2.TextChanged += new System.EventHandler(this.TextBoxChange);
+            this.GravityTextBox2.Validating += new System.ComponentModel.CancelEventHandler(this.OnNumericTextBoxValidating);
             // 
             // CalculateButton
             // 
@@ -173,11 +173,11 @@
             // 
             // EstimatedColorTextBox
             // 
-            this.EstimatedColorTextBox.Location = new System.Drawing.Point(302, 345);
+            this.EstimatedColorTextBox.Location = new System.Drawing.Point(301, 345);
             this.EstimatedColorTextBox.Multiline = true;
             this.EstimatedColorTextBox.Name = "EstimatedColorTextBox";
             this.EstimatedColorTextBox.ReadOnly = true;
-            this.EstimatedColorTextBox.Size = new System.Drawing.Size(116, 22);
+            this.EstimatedColorTextBox.Size = new System.Drawing.Size(64, 22);
             this.EstimatedColorTextBox.TabIndex = 15;
             this.EstimatedColorTextBox.Text = "0";
             // 
@@ -215,7 +215,7 @@
             this.BatchSizeTextBox.Size = new System.Drawing.Size(58, 22);
             this.BatchSizeTextBox.TabIndex = 6;
             this.BatchSizeTextBox.Text = "1";
-            this.BatchSizeTextBox.TextChanged += new System.EventHandler(this.TextBoxChange);
+            this.BatchSizeTextBox.Validating += new System.ComponentModel.CancelEventHandler(this.OnNumericTextBoxValidating);
             // 
             // errorProvider
             // 
@@ -226,9 +226,9 @@
             // ColorLabel
             // 
             this.ColorLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ColorLabel.Location = new System.Drawing.Point(321, 370);
+            this.ColorLabel.Location = new System.Drawing.Point(371, 345);
             this.ColorLabel.Name = "ColorLabel";
-            this.ColorLabel.Size = new System.Drawing.Size(69, 39);
+            this.ColorLabel.Size = new System.Drawing.Size(61, 22);
             this.ColorLabel.TabIndex = 19;
             this.ColorLabel.Text = "Color";
             this.ColorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

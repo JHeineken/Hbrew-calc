@@ -6,12 +6,6 @@ using System.Windows.Forms;
 
 namespace BeerCalculatorWinForms
 {
-    /*Upcoming implementations:
-    -Search function
-    -Combobox (?) w/ database of grain types -- data binding
-    -Visual representation for user of ComboBox / search selection  -- of all grains to be calculated
-    -add/remove grains feature to compliment above point
-    */
 
     public partial class MainForm : Form
     {

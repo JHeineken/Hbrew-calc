@@ -31,7 +31,7 @@ namespace BeerCalculatorClassLibrary.Models
     {
         public static bool IsValid(this Batch batch)
         {
-            if (batch.Gallons <= 1)
+            if (batch.Gallons < 1)
             {
                 return false;
             }

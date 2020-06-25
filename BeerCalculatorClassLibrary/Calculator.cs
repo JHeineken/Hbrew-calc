@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace BeerCalculatorClassLibrary
 {
-    public static class Calculations
+    public static class Calculator
     {
         public static double GetGravity(this Batch batch)
         {

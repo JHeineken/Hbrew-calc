@@ -31,14 +31,14 @@ namespace BeerCalculatorClassLibrary.Models
     {
         public static bool IsValid(this Batch batch)
         {
-            if (batch.Gallons < 1)
+            if (batch.Gallons <= 0)
             {
                 return false;
             }
 
             foreach (var grain in batch.Recipe.Ingredients.OfType<Grain>())
             {
-                if (grain.GravityPoints <= 0 || grain.SRMPoints <= 0 || grain.Pounds <= 0)
+                if (grain.GravityPoints < 0 || grain.SRMPoints < 0 || grain.Pounds < 0)
                 {
                     return false;
                 }

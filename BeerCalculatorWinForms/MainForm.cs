@@ -1,5 +1,4 @@
-﻿using BeerCalculatorClassLibrary;
-using BeerCalculatorClassLibrary.Models;
+﻿using BeerCalculatorClassLibrary.Models;
 using System;
 using System.ComponentModel;
 using System.Windows.Forms;
@@ -43,14 +42,14 @@ namespace BeerCalculatorWinForms
 
             if (_batch.IsValid())
             {
-
+                errorProvider.Clear();
                 EstimatedOGTextBox.Text = _batch.Gravity.ToString();
                 EstimatedColorTextBox.Text = _batch.SRM.ToString();
                 ColorLabel.BackColor = _batch.Color;
             }
             else
             {
-                //TODO
+                errorProvider.SetError(CalculateButton, "Invalid data entered. Please double check your batch size");
             }
         }
 

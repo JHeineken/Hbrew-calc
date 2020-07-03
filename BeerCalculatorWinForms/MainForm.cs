@@ -49,7 +49,7 @@ namespace BeerCalculatorWinForms
             }
             else
             {
-                errorProvider.SetError(CalculateButton, "Invalid data entered. Please double check your batch size");
+                errorProvider.SetError(CalculateButton, "Invalid data entered");
             }
         }
 

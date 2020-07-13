@@ -49,11 +49,24 @@
             this.BatchSizeTextBox = new System.Windows.Forms.TextBox();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.ColorLabel = new System.Windows.Forms.Label();
-            this.DbComboBox = new System.Windows.Forms.ComboBox();
-            this.ExtractPoundsTextBox = new System.Windows.Forms.TextBox();
-            this.ExtractSRMTextBox = new System.Windows.Forms.TextBox();
-            this.ExtractGravityTextBox = new System.Windows.Forms.TextBox();
+            this.DbComboBox1 = new System.Windows.Forms.ComboBox();
+            this.ExtractPoundsTextBox1 = new System.Windows.Forms.TextBox();
+            this.ExtractSRMTextBox1 = new System.Windows.Forms.TextBox();
+            this.ExtractGravityTextBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.ExtractPoundsTextBox2 = new System.Windows.Forms.TextBox();
+            this.ExtractGravityTextBox2 = new System.Windows.Forms.TextBox();
+            this.ExtractSRMTextBox2 = new System.Windows.Forms.TextBox();
+            this.DbComboBox2 = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,7 +92,7 @@
             // poundsLabel
             // 
             this.poundsLabel.AutoSize = true;
-            this.poundsLabel.Location = new System.Drawing.Point(109, 200);
+            this.poundsLabel.Location = new System.Drawing.Point(109, 269);
             this.poundsLabel.Name = "poundsLabel";
             this.poundsLabel.Size = new System.Drawing.Size(56, 17);
             this.poundsLabel.TabIndex = 7;
@@ -88,7 +101,7 @@
             // gravityLabel
             // 
             this.gravityLabel.AutoSize = true;
-            this.gravityLabel.Location = new System.Drawing.Point(205, 200);
+            this.gravityLabel.Location = new System.Drawing.Point(205, 269);
             this.gravityLabel.Name = "gravityLabel";
             this.gravityLabel.Size = new System.Drawing.Size(96, 17);
             this.gravityLabel.TabIndex = 10;
@@ -106,7 +119,7 @@
             // srmLabel
             // 
             this.srmLabel.AutoSize = true;
-            this.srmLabel.Location = new System.Drawing.Point(333, 200);
+            this.srmLabel.Location = new System.Drawing.Point(329, 269);
             this.srmLabel.Name = "srmLabel";
             this.srmLabel.Size = new System.Drawing.Size(66, 17);
             this.srmLabel.TabIndex = 11;
@@ -170,15 +183,16 @@
             // estimatedOGLabel
             // 
             this.estimatedOGLabel.AutoSize = true;
-            this.estimatedOGLabel.Location = new System.Drawing.Point(173, 373);
+            this.estimatedOGLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.estimatedOGLabel.Location = new System.Drawing.Point(155, 373);
             this.estimatedOGLabel.Name = "estimatedOGLabel";
-            this.estimatedOGLabel.Size = new System.Drawing.Size(96, 17);
+            this.estimatedOGLabel.Size = new System.Drawing.Size(108, 17);
             this.estimatedOGLabel.TabIndex = 14;
             this.estimatedOGLabel.Text = "Estimated OG";
             // 
             // EstimatedColorTextBox
             // 
-            this.EstimatedColorTextBox.Location = new System.Drawing.Point(292, 402);
+            this.EstimatedColorTextBox.Location = new System.Drawing.Point(305, 402);
             this.EstimatedColorTextBox.Multiline = true;
             this.EstimatedColorTextBox.Name = "EstimatedColorTextBox";
             this.EstimatedColorTextBox.ReadOnly = true;
@@ -188,7 +202,7 @@
             // 
             // EstimatedOGTextBox
             // 
-            this.EstimatedOGTextBox.Location = new System.Drawing.Point(169, 402);
+            this.EstimatedOGTextBox.Location = new System.Drawing.Point(158, 402);
             this.EstimatedOGTextBox.Name = "EstimatedOGTextBox";
             this.EstimatedOGTextBox.ReadOnly = true;
             this.EstimatedOGTextBox.Size = new System.Drawing.Size(100, 22);
@@ -198,18 +212,20 @@
             // estimatedColorLabel
             // 
             this.estimatedColorLabel.AutoSize = true;
+            this.estimatedColorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.estimatedColorLabel.Location = new System.Drawing.Point(289, 373);
             this.estimatedColorLabel.Name = "estimatedColorLabel";
-            this.estimatedColorLabel.Size = new System.Drawing.Size(151, 17);
+            this.estimatedColorLabel.Size = new System.Drawing.Size(172, 17);
             this.estimatedColorLabel.TabIndex = 17;
             this.estimatedColorLabel.Text = "Estimated Color (SRM)";
             // 
             // batchSizeLabel
             // 
             this.batchSizeLabel.AutoSize = true;
+            this.batchSizeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.batchSizeLabel.Location = new System.Drawing.Point(531, 18);
             this.batchSizeLabel.Name = "batchSizeLabel";
-            this.batchSizeLabel.Size = new System.Drawing.Size(108, 17);
+            this.batchSizeLabel.Size = new System.Drawing.Size(124, 17);
             this.batchSizeLabel.TabIndex = 18;
             this.batchSizeLabel.Text = "Batch Size (gal)";
             // 
@@ -238,47 +254,166 @@
             this.ColorLabel.Text = "Color";
             this.ColorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // DbComboBox
+            // DbComboBox1
             // 
-            this.DbComboBox.FormattingEnabled = true;
-            this.DbComboBox.Location = new System.Drawing.Point(29, 36);
-            this.DbComboBox.Name = "DbComboBox";
-            this.DbComboBox.Size = new System.Drawing.Size(225, 24);
-            this.DbComboBox.TabIndex = 20;
-            this.DbComboBox.SelectedIndexChanged += new System.EventHandler(this.DbComboBox_SelectedIndexChanged);
+            this.DbComboBox1.FormattingEnabled = true;
+            this.DbComboBox1.Location = new System.Drawing.Point(29, 36);
+            this.DbComboBox1.Name = "DbComboBox1";
+            this.DbComboBox1.Size = new System.Drawing.Size(225, 24);
+            this.DbComboBox1.TabIndex = 20;
+            this.DbComboBox1.SelectedIndexChanged += new System.EventHandler(this.DbComboBox_SelectedIndexChanged);
             // 
-            // ExtractPoundsTextBox
+            // ExtractPoundsTextBox1
             // 
-            this.ExtractPoundsTextBox.Location = new System.Drawing.Point(99, 230);
-            this.ExtractPoundsTextBox.Name = "ExtractPoundsTextBox";
-            this.ExtractPoundsTextBox.Size = new System.Drawing.Size(98, 22);
-            this.ExtractPoundsTextBox.TabIndex = 21;
-            this.ExtractPoundsTextBox.Text = "0";
+            this.ExtractPoundsTextBox1.Location = new System.Drawing.Point(97, 83);
+            this.ExtractPoundsTextBox1.Name = "ExtractPoundsTextBox1";
+            this.ExtractPoundsTextBox1.Size = new System.Drawing.Size(98, 22);
+            this.ExtractPoundsTextBox1.TabIndex = 21;
+            this.ExtractPoundsTextBox1.Text = "0";
             // 
-            // ExtractSRMTextBox
+            // ExtractSRMTextBox1
             // 
-            this.ExtractSRMTextBox.Location = new System.Drawing.Point(323, 230);
-            this.ExtractSRMTextBox.Name = "ExtractSRMTextBox";
-            this.ExtractSRMTextBox.Size = new System.Drawing.Size(100, 22);
-            this.ExtractSRMTextBox.TabIndex = 22;
-            this.ExtractSRMTextBox.Text = "0";
+            this.ExtractSRMTextBox1.Location = new System.Drawing.Point(307, 83);
+            this.ExtractSRMTextBox1.Name = "ExtractSRMTextBox1";
+            this.ExtractSRMTextBox1.Size = new System.Drawing.Size(100, 22);
+            this.ExtractSRMTextBox1.TabIndex = 22;
+            this.ExtractSRMTextBox1.Text = "0";
             // 
-            // ExtractGravityTextBox
+            // ExtractGravityTextBox1
             // 
-            this.ExtractGravityTextBox.Location = new System.Drawing.Point(208, 230);
-            this.ExtractGravityTextBox.Name = "ExtractGravityTextBox";
-            this.ExtractGravityTextBox.Size = new System.Drawing.Size(100, 22);
-            this.ExtractGravityTextBox.TabIndex = 23;
-            this.ExtractGravityTextBox.Text = "0";
+            this.ExtractGravityTextBox1.Location = new System.Drawing.Point(201, 83);
+            this.ExtractGravityTextBox1.Name = "ExtractGravityTextBox1";
+            this.ExtractGravityTextBox1.Size = new System.Drawing.Size(100, 22);
+            this.ExtractGravityTextBox1.TabIndex = 23;
+            this.ExtractGravityTextBox1.Text = "0";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 230);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 17);
+            this.label1.Size = new System.Drawing.Size(93, 17);
             this.label1.TabIndex = 24;
             this.label1.Text = "Malt Extract";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(109, 63);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(56, 17);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Pounds";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(205, 63);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(96, 17);
+            this.label3.TabIndex = 26;
+            this.label3.Text = "Gravity Points";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(320, 63);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 17);
+            this.label4.TabIndex = 27;
+            this.label4.Text = "Lovibond";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(26, 162);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(63, 17);
+            this.label5.TabIndex = 28;
+            this.label5.Text = "Extract 2";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(25, 86);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(63, 17);
+            this.label6.TabIndex = 29;
+            this.label6.Text = "Extract 1";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(9, 238);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(133, 17);
+            this.label7.TabIndex = 30;
+            this.label7.Text = "Additional Grains";
+            // 
+            // ExtractPoundsTextBox2
+            // 
+            this.ExtractPoundsTextBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ExtractPoundsTextBox2.Location = new System.Drawing.Point(97, 178);
+            this.ExtractPoundsTextBox2.Name = "ExtractPoundsTextBox2";
+            this.ExtractPoundsTextBox2.Size = new System.Drawing.Size(100, 22);
+            this.ExtractPoundsTextBox2.TabIndex = 31;
+            this.ExtractPoundsTextBox2.Text = "0.0";
+            // 
+            // ExtractGravityTextBox2
+            // 
+            this.ExtractGravityTextBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ExtractGravityTextBox2.Location = new System.Drawing.Point(201, 178);
+            this.ExtractGravityTextBox2.Name = "ExtractGravityTextBox2";
+            this.ExtractGravityTextBox2.Size = new System.Drawing.Size(100, 22);
+            this.ExtractGravityTextBox2.TabIndex = 32;
+            this.ExtractGravityTextBox2.Text = "0.0";
+            // 
+            // ExtractSRMTextBox2
+            // 
+            this.ExtractSRMTextBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ExtractSRMTextBox2.Location = new System.Drawing.Point(307, 178);
+            this.ExtractSRMTextBox2.Name = "ExtractSRMTextBox2";
+            this.ExtractSRMTextBox2.Size = new System.Drawing.Size(98, 22);
+            this.ExtractSRMTextBox2.TabIndex = 33;
+            this.ExtractSRMTextBox2.Text = "0.0";
+            // 
+            // DbComboBox2
+            // 
+            this.DbComboBox2.FormattingEnabled = true;
+            this.DbComboBox2.Location = new System.Drawing.Point(28, 127);
+            this.DbComboBox2.Name = "DbComboBox2";
+            this.DbComboBox2.Size = new System.Drawing.Size(225, 24);
+            this.DbComboBox2.TabIndex = 34;
+            this.DbComboBox2.SelectedIndexChanged += new System.EventHandler(this.DbComboBox_SelectedIndexChanged);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(109, 154);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(56, 17);
+            this.label8.TabIndex = 35;
+            this.label8.Text = "Pounds";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(205, 158);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(96, 17);
+            this.label9.TabIndex = 36;
+            this.label9.Text = "Gravity Points";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(320, 158);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(66, 17);
+            this.label10.TabIndex = 37;
+            this.label10.Text = "Lovibond";
             // 
             // MainForm
             // 
@@ -287,11 +422,24 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(659, 450);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.DbComboBox2);
+            this.Controls.Add(this.ExtractSRMTextBox2);
+            this.Controls.Add(this.ExtractGravityTextBox2);
+            this.Controls.Add(this.ExtractPoundsTextBox2);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.ExtractGravityTextBox);
-            this.Controls.Add(this.ExtractSRMTextBox);
-            this.Controls.Add(this.ExtractPoundsTextBox);
-            this.Controls.Add(this.DbComboBox);
+            this.Controls.Add(this.ExtractGravityTextBox1);
+            this.Controls.Add(this.ExtractSRMTextBox1);
+            this.Controls.Add(this.ExtractPoundsTextBox1);
+            this.Controls.Add(this.DbComboBox1);
             this.Controls.Add(this.ColorLabel);
             this.Controls.Add(this.BatchSizeTextBox);
             this.Controls.Add(this.batchSizeLabel);
@@ -342,11 +490,24 @@
         private System.Windows.Forms.TextBox BatchSizeTextBox;
         private System.Windows.Forms.ErrorProvider errorProvider;
         private System.Windows.Forms.Label ColorLabel;
-        private System.Windows.Forms.ComboBox DbComboBox;
-        private System.Windows.Forms.TextBox ExtractPoundsTextBox;
-        private System.Windows.Forms.TextBox ExtractGravityTextBox;
-        private System.Windows.Forms.TextBox ExtractSRMTextBox;
+        private System.Windows.Forms.ComboBox DbComboBox1;
+        private System.Windows.Forms.TextBox ExtractPoundsTextBox1;
+        private System.Windows.Forms.TextBox ExtractGravityTextBox1;
+        private System.Windows.Forms.TextBox ExtractSRMTextBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox ExtractSRMTextBox2;
+        private System.Windows.Forms.TextBox ExtractGravityTextBox2;
+        private System.Windows.Forms.TextBox ExtractPoundsTextBox2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ComboBox DbComboBox2;
     }
 }
 

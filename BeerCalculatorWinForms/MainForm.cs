@@ -15,7 +15,8 @@ namespace BeerCalculatorWinForms
         private Grain _grain1;
         private Grain _grain2;
         private Batch _batch;
-        private Grain _grainExtract;
+        private Grain _grainExtract1;
+        private Grain _grainExtract2;
 
 
         public MainForm()
@@ -24,7 +25,8 @@ namespace BeerCalculatorWinForms
             _grain1 = new Grain(); 
             _grain2 = new Grain();
             _batch = new Batch();
-            _grainExtract = new Grain();
+            _grainExtract1 = new Grain();
+            _grainExtract2 = new Grain();
 
         }
         private void MainForm_Load(object sender, EventArgs e)
@@ -40,15 +42,25 @@ namespace BeerCalculatorWinForms
             GravityTextBox2.DataBindings.Add("Text", _grain2, "GravityPoints", true, DataSourceUpdateMode.OnPropertyChanged);
             SRMTextBox2.DataBindings.Add("Text", _grain2, "SRMPoints", true, DataSourceUpdateMode.OnPropertyChanged);
 
-            ExtractPoundsTextBox.DataBindings.Add("Text", _grainExtract, "Pounds", true, DataSourceUpdateMode.OnPropertyChanged);
-            ExtractGravityTextBox.DataBindings.Add("Text", _grainExtract, "GravityPoints", true, DataSourceUpdateMode.OnPropertyChanged);
-            ExtractSRMTextBox.DataBindings.Add("Text", _grainExtract, "SRMPoints", true, DataSourceUpdateMode.OnPropertyChanged);
-           
-            DbComboBox.DisplayMember = "Name";
-            DbComboBox.ValueMember = "ID";
+            ExtractPoundsTextBox1.DataBindings.Add("Text", _grainExtract1, "Pounds", true, DataSourceUpdateMode.OnPropertyChanged);
+            ExtractGravityTextBox1.DataBindings.Add("Text", _grainExtract1, "GravityPoints", true, DataSourceUpdateMode.OnPropertyChanged);
+            ExtractSRMTextBox1.DataBindings.Add("Text", _grainExtract1, "SRMPoints", true, DataSourceUpdateMode.OnPropertyChanged);
+
+            ExtractPoundsTextBox2.DataBindings.Add("Text", _grainExtract2, "Pounds", true, DataSourceUpdateMode.OnPropertyChanged);
+            ExtractGravityTextBox2.DataBindings.Add("Text", _grainExtract2, "GravityPoints", true, DataSourceUpdateMode.OnPropertyChanged);
+            ExtractSRMTextBox2.DataBindings.Add("Text", _grainExtract2, "SRMPoints", true, DataSourceUpdateMode.OnPropertyChanged);
+
+            DbComboBox1.DisplayMember = "Name";
+            DbComboBox1.ValueMember = "ID";
             var extracts = SqliteDataAccess.LoadExtracts();
             extracts.Insert(0, new MaltExtract { ID = -1, Name = "-- Select Malt Extract --" });
-            DbComboBox.DataSource = extracts;
+            DbComboBox1.DataSource = extracts;
+
+            DbComboBox2.DisplayMember = "Name";
+            DbComboBox2.ValueMember = "ID";
+            var extracts2 = SqliteDataAccess.LoadExtracts();
+            extracts2.Insert(0, new MaltExtract { ID = -1, Name = "-- Select Malt Extract --" });
+            DbComboBox2.DataSource = extracts2;
         }
 
         private void CalculateButtonClick(object sender, EventArgs e)
@@ -56,7 +68,8 @@ namespace BeerCalculatorWinForms
             _batch.Recipe.Ingredients.Clear();
             _batch.Recipe.Ingredients.Add(_grain1);
             _batch.Recipe.Ingredients.Add(_grain2);
-            _batch.Recipe.Ingredients.Add(_grainExtract);
+            _batch.Recipe.Ingredients.Add(_grainExtract1);
+            _batch.Recipe.Ingredients.Add(_grainExtract2);
 
             if (_batch.IsValid())
             {
@@ -90,11 +103,17 @@ namespace BeerCalculatorWinForms
 
         private void DbComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (DbComboBox.SelectedIndex > -1)
+            if (DbComboBox1.SelectedIndex > -1)
             {
-                var maltExtract = DbComboBox.Items[DbComboBox.SelectedIndex] as MaltExtract;
-                ExtractGravityTextBox.Text = maltExtract.GravityPoints.ToString();
-                ExtractSRMTextBox.Text = maltExtract.SRMPoints.ToString();
+                var maltExtract = DbComboBox1.Items[DbComboBox1.SelectedIndex] as MaltExtract;
+                ExtractGravityTextBox1.Text = maltExtract.GravityPoints.ToString();
+                ExtractSRMTextBox1.Text = maltExtract.SRMPoints.ToString();
+            }
+            if (DbComboBox2.SelectedIndex > -1)
+            {
+                var maltExtract2 = DbComboBox2.Items[DbComboBox2.SelectedIndex] as MaltExtract;
+                ExtractGravityTextBox2.Text = maltExtract2.GravityPoints.ToString();
+                ExtractSRMTextBox2.Text = maltExtract2.SRMPoints.ToString();
             }
         }
     }

@@ -42,6 +42,7 @@ namespace BeerCalculatorClassLibrary.Models
                 {
                     return false;
                 }
+          
             }
 
             return true;

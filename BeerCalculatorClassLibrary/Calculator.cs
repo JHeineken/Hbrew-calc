@@ -10,7 +10,7 @@ namespace BeerCalculatorClassLibrary
     public static class Calculator
     {
         public static double GetGravity(this Batch batch)
-        {
+        { 
             var grains = batch.Recipe.Ingredients.OfType<Grain>();
             var gravity = grains.Select(grain => grain.Pounds * grain.GravityPoints).Sum() / batch.Gallons;
             return gravity.ConvertGravity();

@@ -223,7 +223,7 @@
             // 
             this.batchSizeLabel.AutoSize = true;
             this.batchSizeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.batchSizeLabel.Location = new System.Drawing.Point(531, 18);
+            this.batchSizeLabel.Location = new System.Drawing.Point(490, 18);
             this.batchSizeLabel.Name = "batchSizeLabel";
             this.batchSizeLabel.Size = new System.Drawing.Size(124, 17);
             this.batchSizeLabel.TabIndex = 18;
@@ -231,7 +231,7 @@
             // 
             // BatchSizeTextBox
             // 
-            this.BatchSizeTextBox.Location = new System.Drawing.Point(556, 38);
+            this.BatchSizeTextBox.Location = new System.Drawing.Point(522, 58);
             this.BatchSizeTextBox.Name = "BatchSizeTextBox";
             this.BatchSizeTextBox.Size = new System.Drawing.Size(58, 22);
             this.BatchSizeTextBox.TabIndex = 6;
@@ -391,7 +391,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(109, 154);
+            this.label8.Location = new System.Drawing.Point(109, 158);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(56, 17);
             this.label8.TabIndex = 35;

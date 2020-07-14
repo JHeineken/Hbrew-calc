@@ -1,12 +1,10 @@
 ﻿using BeerCalculatorClassLibrary.Models;
 using Dapper;
-using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SQLite;
 using System.Linq;
-using System.Text;
 
 namespace BeerCalculatorClassLibrary
 {

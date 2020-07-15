@@ -17,3 +17,11 @@ C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\obj\Debug\BeerC
 C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\obj\Debug\BeerCalculatorWinForms.csproj.CopyComplete
 C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\obj\Debug\BeerCalculator.exe
 C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\obj\Debug\BeerCalculator.pdb
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\bin\Debug\System.Security.Permissions.dll
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\bin\Debug\System.Security.Permissions.xml
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\bin\Debug\System.Security.Principal.Windows.xml

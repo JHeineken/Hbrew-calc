@@ -15,7 +15,8 @@ namespace BeerCalculatorClassLibrary
         {
             using (IDbConnection cnn = new SQLiteConnection(LoadConnectionString()))
             {
-                var output = cnn.Query<MaltExtract>("select * from Extract", new DynamicParameters());
+                var query = "select * from Extract";
+                var output = cnn.Query<MaltExtract>(query, new DynamicParameters());
                 return output.ToList();
             }
         }

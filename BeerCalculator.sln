@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerCalculatorClassLibrary"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerCalculatorWinForms", "BeerCalculatorWinForms\BeerCalculatorWinForms.csproj", "{9C2A9406-7072-47DB-84BC-4B8F084D2FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerCalculator.Tests", "BeerCalculator.Tests\BeerCalculator.Tests.csproj", "{5574E793-DBC9-4A6C-955B-8C546D80B41C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerCalculator.Tests", "BeerCalculator.Tests\BeerCalculator.Tests.csproj", "{5574E793-DBC9-4A6C-955B-8C546D80B41C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

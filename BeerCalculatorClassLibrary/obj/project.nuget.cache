@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "5jIKCzO8Yvm0ZgnrBHxv9WZZN1Ubxd9rnLDMUz8fC2l79dgzWjEQDulzvCj1t/UIz4e8hFsvkNgodBuA0DNBhQ==",
+  "dgSpecHash": "LJTZ4TLb/a7wTqukKH9IkMxI0glV8YDdNOw+/F1cJzDvL241wJiy9otgYktTNV/hrH7VLE77EEEFqcTLVsE/oQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Joel\\source\\repos\\BeerCalculator\\BeerCalculatorClassLibrary\\BeerCalculatorClassLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joel\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Joel\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
+    "C:\\Users\\Joel\\.nuget\\packages\\system.data.sqlite\\1.0.113.1\\system.data.sqlite.1.0.113.1.nupkg.sha512",
+    "C:\\Users\\Joel\\.nuget\\packages\\system.data.sqlite.core\\1.0.113.1\\system.data.sqlite.core.1.0.113.1.nupkg.sha512",
     "C:\\Users\\Joel\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
     "C:\\Users\\Joel\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
   ],

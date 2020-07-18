@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ARIAS</Machine>
+    <WindowsUser>Joel</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>964833e2-4aed-404a-b621-a43284e770df</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Joel</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\obj\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\bin\AnyCPU\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\bin\AnyCPU\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\BadgeLogo.scale-100.png">
+      <PackagePath>Images\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\BadgeLogo.scale-125.png">
+      <PackagePath>Images\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\BadgeLogo.scale-150.png">
+      <PackagePath>Images\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\BadgeLogo.scale-200.png">
+      <PackagePath>Images\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\BadgeLogo.scale-400.png">
+      <PackagePath>Images\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\LargeTile.scale-100.png">
+      <PackagePath>Images\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\LargeTile.scale-125.png">
+      <PackagePath>Images\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\LargeTile.scale-150.png">
+      <PackagePath>Images\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\LargeTile.scale-200.png">
+      <PackagePath>Images\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\LargeTile.scale-400.png">
+      <PackagePath>Images\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\SmallTile.scale-100.png">
+      <PackagePath>Images\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\SmallTile.scale-125.png">
+      <PackagePath>Images\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\SmallTile.scale-150.png">
+      <PackagePath>Images\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\SmallTile.scale-200.png">
+      <PackagePath>Images\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\SmallTile.scale-400.png">
+      <PackagePath>Images\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\SplashScreen.scale-100.png">
+      <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\SplashScreen.scale-125.png">
+      <PackagePath>Images\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\SplashScreen.scale-150.png">
+      <PackagePath>Images\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\SplashScreen.scale-400.png">
+      <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square150x150Logo.scale-100.png">
+      <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square150x150Logo.scale-125.png">
+      <PackagePath>Images\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square150x150Logo.scale-150.png">
+      <PackagePath>Images\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square150x150Logo.scale-400.png">
+      <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.scale-100.png">
+      <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.scale-125.png">
+      <PackagePath>Images\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.scale-150.png">
+      <PackagePath>Images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.scale-400.png">
+      <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\StoreLogo.scale-100.png">
+      <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\StoreLogo.scale-125.png">
+      <PackagePath>Images\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\StoreLogo.scale-150.png">
+      <PackagePath>Images\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\StoreLogo.scale-200.png">
+      <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\StoreLogo.scale-400.png">
+      <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Wide310x150Logo.scale-100.png">
+      <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Wide310x150Logo.scale-125.png">
+      <PackagePath>Images\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Wide310x150Logo.scale-150.png">
+      <PackagePath>Images\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\Images\Wide310x150Logo.scale-400.png">
+      <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorInstaller\bin\AnyCPU\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\obj\Release\netcoreapp3.0\Msix\BeerCalculatorWinForms.deps.json">
+      <PackagePath>BeerCalculatorWinForms\BeerCalculatorWinForms.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\obj\Release\netcoreapp3.0\BeerCalculatorWinForms.dll">
+      <PackagePath>BeerCalculatorWinForms\BeerCalculatorWinForms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\bin\Release\netcoreapp3.0\BeerCalculatorWinForms.runtimeconfig.json">
+      <PackagePath>BeerCalculatorWinForms\BeerCalculatorWinForms.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\App.config">
+      <PackagePath>BeerCalculatorWinForms\BeerCalculatorWinForms.dll.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\dapper\2.0.35\lib\netstandard2.0\Dapper.dll">
+      <PackagePath>BeerCalculatorWinForms\Dapper.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\entityframework\6.3.0\lib\netstandard2.1\EntityFramework.SqlServer.dll">
+      <PackagePath>BeerCalculatorWinForms\EntityFramework.SqlServer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\entityframework\6.3.0\lib\netstandard2.1\EntityFramework.dll">
+      <PackagePath>BeerCalculatorWinForms\EntityFramework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\microsoft.win32.registry\4.7.0\lib\netstandard2.0\Microsoft.Win32.Registry.dll">
+      <PackagePath>BeerCalculatorWinForms\Microsoft.Win32.Registry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\microsoft.win32.registry.accesscontrol\4.7.0\lib\netstandard2.0\Microsoft.Win32.Registry.AccessControl.dll">
+      <PackagePath>BeerCalculatorWinForms\Microsoft.Win32.Registry.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\microsoft.win32.systemevents\4.7.0\lib\netstandard2.0\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>BeerCalculatorWinForms\Microsoft.Win32.SystemEvents.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.codedom\4.7.0\lib\netstandard2.0\System.CodeDom.dll">
+      <PackagePath>BeerCalculatorWinForms\System.CodeDom.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.componentmodel.composition\4.7.0\lib\netcoreapp2.0\System.ComponentModel.Composition.dll">
+      <PackagePath>BeerCalculatorWinForms\System.ComponentModel.Composition.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.componentmodel.composition.registration\4.7.0\lib\netstandard2.1\System.ComponentModel.Composition.Registration.dll">
+      <PackagePath>BeerCalculatorWinForms\System.ComponentModel.Composition.Registration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.configuration.configurationmanager\4.7.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Configuration.ConfigurationManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.odbc\4.7.0\lib\netstandard2.0\System.Data.Odbc.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.oledb\4.7.0\lib\netstandard2.0\System.Data.OleDb.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Data.OleDb.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlclient\4.8.0\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Data.SqlClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlite.core\1.0.113.1\lib\netstandard2.1\System.Data.SQLite.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Data.SQLite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlite.ef6\1.0.113\lib\netstandard2.1\System.Data.SQLite.EF6.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Data.SQLite.EF6.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.diagnostics.diagnosticsource\4.7.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.diagnostics.eventlog\4.7.0\lib\netstandard2.0\System.Diagnostics.EventLog.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Diagnostics.EventLog.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.diagnostics.performancecounter\4.7.0\lib\netstandard2.0\System.Diagnostics.PerformanceCounter.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Diagnostics.PerformanceCounter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.directoryservices\4.7.0\lib\netstandard2.0\System.DirectoryServices.dll">
+      <PackagePath>BeerCalculatorWinForms\System.DirectoryServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.directoryservices.accountmanagement\4.7.0\lib\netstandard2.0\System.DirectoryServices.AccountManagement.dll">
+      <PackagePath>BeerCalculatorWinForms\System.DirectoryServices.AccountManagement.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.directoryservices.protocols\4.7.0\lib\netstandard2.0\System.DirectoryServices.Protocols.dll">
+      <PackagePath>BeerCalculatorWinForms\System.DirectoryServices.Protocols.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.io.filesystem.accesscontrol\4.7.0\lib\netstandard2.0\System.IO.FileSystem.AccessControl.dll">
+      <PackagePath>BeerCalculatorWinForms\System.IO.FileSystem.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.io.packaging\4.7.0\lib\netstandard2.0\System.IO.Packaging.dll">
+      <PackagePath>BeerCalculatorWinForms\System.IO.Packaging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.io.ports\4.7.0\lib\netstandard2.0\System.IO.Ports.dll">
+      <PackagePath>BeerCalculatorWinForms\System.IO.Ports.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.management\4.7.0\lib\netstandard2.0\System.Management.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Management.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.private.servicemodel\4.7.0\lib\netstandard2.0\System.Private.ServiceModel.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Private.ServiceModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.reflection.context\4.7.0\lib\netstandard2.1\System.Reflection.Context.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Reflection.Context.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.runtime.caching\4.7.0\lib\netstandard2.0\System.Runtime.Caching.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Runtime.Caching.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.runtime.compilerservices.unsafe\4.7.0\lib\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.accesscontrol\4.7.0\lib\netstandard2.0\System.Security.AccessControl.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Security.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.cryptography.cng\4.7.0\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Security.Cryptography.Cng.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.cryptography.pkcs\4.7.0\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Security.Cryptography.Pkcs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.cryptography.protecteddata\4.7.0\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Security.Cryptography.ProtectedData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.cryptography.xml\4.7.0\lib\netstandard2.0\System.Security.Cryptography.Xml.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Security.Cryptography.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.permissions\4.7.0\lib\netcoreapp3.0\System.Security.Permissions.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Security.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.principal.windows\4.7.0\lib\netstandard2.0\System.Security.Principal.Windows.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Security.Principal.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.servicemodel.duplex\4.7.0\lib\netstandard2.0\System.ServiceModel.Duplex.dll">
+      <PackagePath>BeerCalculatorWinForms\System.ServiceModel.Duplex.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.servicemodel.http\4.7.0\lib\netstandard2.0\System.ServiceModel.Http.dll">
+      <PackagePath>BeerCalculatorWinForms\System.ServiceModel.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.servicemodel.nettcp\4.7.0\lib\netstandard2.0\System.ServiceModel.NetTcp.dll">
+      <PackagePath>BeerCalculatorWinForms\System.ServiceModel.NetTcp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.servicemodel.primitives\4.7.0\lib\netcoreapp2.1\System.ServiceModel.Primitives.dll">
+      <PackagePath>BeerCalculatorWinForms\System.ServiceModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.servicemodel.primitives\4.7.0\lib\netcoreapp2.1\System.ServiceModel.dll">
+      <PackagePath>BeerCalculatorWinForms\System.ServiceModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.servicemodel.security\4.7.0\lib\netstandard2.0\System.ServiceModel.Security.dll">
+      <PackagePath>BeerCalculatorWinForms\System.ServiceModel.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.servicemodel.syndication\4.7.0\lib\netstandard2.0\System.ServiceModel.Syndication.dll">
+      <PackagePath>BeerCalculatorWinForms\System.ServiceModel.Syndication.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.serviceprocess.servicecontroller\4.7.0\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll">
+      <PackagePath>BeerCalculatorWinForms\System.ServiceProcess.ServiceController.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.text.encoding.codepages\4.7.0\lib\netstandard2.0\System.Text.Encoding.CodePages.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Text.Encoding.CodePages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.threading.accesscontrol\4.7.0\lib\netstandard2.0\System.Threading.AccessControl.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Threading.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.windows.extensions\4.7.0\lib\netcoreapp3.0\System.Windows.Extensions.dll">
+      <PackagePath>BeerCalculatorWinForms\System.Windows.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\microsoft.win32.registry\4.7.0\runtimes\unix\lib\netstandard2.0\Microsoft.Win32.Registry.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\unix\lib\netstandard2.0\Microsoft.Win32.Registry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\microsoft.win32.registry\4.7.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\microsoft.win32.registry.accesscontrol\4.7.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.AccessControl.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\microsoft.win32.systemevents\4.7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\runtime.linux-arm.runtime.native.system.io.ports\4.7.0\runtimes\linux-arm\native\System.IO.Ports.Native.so">
+      <PackagePath>BeerCalculatorWinForms\runtimes\linux-arm\native\System.IO.Ports.Native.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\runtime.linux-arm64.runtime.native.system.io.ports\4.7.0\runtimes\linux-arm64\native\System.IO.Ports.Native.so">
+      <PackagePath>BeerCalculatorWinForms\runtimes\linux-arm64\native\System.IO.Ports.Native.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\runtime.linux-x64.runtime.native.system.io.ports\4.7.0\runtimes\linux-x64\native\System.IO.Ports.Native.so">
+      <PackagePath>BeerCalculatorWinForms\runtimes\linux-x64\native\System.IO.Ports.Native.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\runtime.osx-x64.runtime.native.system.io.ports\4.7.0\runtimes\osx-x64\native\System.IO.Ports.Native.dylib">
+      <PackagePath>BeerCalculatorWinForms\runtimes\osx-x64\native\System.IO.Ports.Native.dylib</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-arm64\native\sni.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win-arm64\native\sni.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\runtime.win-x64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x64\native\sni.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win-x64\native\sni.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\runtime.win-x86.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x86\native\sni.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win-x86\native\sni.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\sqlite\3.13.0\runtimes\linux-x64\native\libsqlite3.so">
+      <PackagePath>BeerCalculatorWinForms\runtimes\linux-x64\native\libsqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\sqlite\3.13.0\runtimes\osx-x64\native\libsqlite3.dylib">
+      <PackagePath>BeerCalculatorWinForms\runtimes\osx-x64\native\libsqlite3.dylib</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\sqlite\3.13.0\runtimes\win7-x64\native\sqlite3.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win7-x64\native\sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\sqlite\3.13.0\runtimes\win7-x86\native\sqlite3.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win7-x86\native\sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.odbc\4.7.0\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.odbc\4.7.0\runtimes\linux\lib\netcoreapp2.0\System.Data.Odbc.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\linux\lib\netcoreapp2.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.odbc\4.7.0\runtimes\osx\lib\netcoreapp2.0\System.Data.Odbc.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\osx\lib\netcoreapp2.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.odbc\4.7.0\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.oledb\4.7.0\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlclient\4.8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlclient\4.8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlite.core\1.0.113.1\runtimes\linux-x64\native\netstandard2.0\SQLite.Interop.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\linux-x64\native\netstandard2.0\SQLite.Interop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlite.core\1.0.113.1\runtimes\linux-x64\native\netstandard2.1\SQLite.Interop.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\linux-x64\native\netstandard2.1\SQLite.Interop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlite.core\1.0.113.1\runtimes\osx-x64\native\netstandard2.0\SQLite.Interop.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\osx-x64\native\netstandard2.0\SQLite.Interop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlite.core\1.0.113.1\runtimes\osx-x64\native\netstandard2.1\SQLite.Interop.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\osx-x64\native\netstandard2.1\SQLite.Interop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlite.core\1.0.113.1\runtimes\win-x64\native\netstandard2.0\SQLite.Interop.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win-x64\native\netstandard2.0\SQLite.Interop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlite.core\1.0.113.1\runtimes\win-x64\native\netstandard2.1\SQLite.Interop.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win-x64\native\netstandard2.1\SQLite.Interop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlite.core\1.0.113.1\runtimes\win-x86\native\netstandard2.0\SQLite.Interop.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win-x86\native\netstandard2.0\SQLite.Interop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.sqlite.core\1.0.113.1\runtimes\win-x86\native\netstandard2.1\SQLite.Interop.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win-x86\native\netstandard2.1\SQLite.Interop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.diagnostics.eventlog\4.7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.diagnostics.performancecounter\4.7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.directoryservices\4.7.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.directoryservices.accountmanagement\4.7.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.directoryservices.protocols\4.7.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.drawing.common\4.7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.drawing.common\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.io.filesystem.accesscontrol\4.7.0\runtimes\win\lib\netstandard2.0\System.IO.FileSystem.AccessControl.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netstandard2.0\System.IO.FileSystem.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.io.ports\4.7.0\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.io.ports\4.7.0\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.io.ports\4.7.0\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.management\4.7.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp2.0\System.Management.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.runtime.caching\4.7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.accesscontrol\4.7.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.cryptography.cng\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.cryptography.pkcs\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.cryptography.protecteddata\4.7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.principal.windows\4.7.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.security.principal.windows\4.7.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.serviceprocess.servicecontroller\4.7.0\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.text.encoding.codepages\4.7.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.threading.accesscontrol\4.7.0\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.windows.extensions\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll">
+      <PackagePath>BeerCalculatorWinForms\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorClassLibrary\bin\Release\netstandard2.0\BeerCalculatorClassLibrary.dll">
+      <PackagePath>BeerCalculatorWinForms\BeerCalculatorClassLibrary.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\obj\Release\netcoreapp3.0\BeerCalculatorWinForms.exe">
+      <PackagePath>BeerCalculatorWinForms\BeerCalculatorWinForms.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -55,9 +55,9 @@
               "target": "Package",
               "version": "[1.0.113.1, )"
             },
-            "sqlite": {
+            "System.Data.SQLite.Core": {
               "target": "Package",
-              "version": "[3.13.0, )"
+              "version": "[1.0.113.1, )"
             }
           },
           "imports": [

@@ -25,7 +25,7 @@ namespace BeerCalculatorClassLibrary
         public static Color GetColor(this double srm)
         {
             srm = Math.Round(srm);
-            var SRMtoRGB = File.ReadLines(@"BeerCalculatorClassLibrary\Resources\SRMtoRGB.csv")
+            var SRMtoRGB = File.ReadLines(@"Resources\SRMtoRGB.csv")
                 .Select(line => line.Split(','))
                 .ToDictionary(
                     line => Convert.ToDouble(line[0]),

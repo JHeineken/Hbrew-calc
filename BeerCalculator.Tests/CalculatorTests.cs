@@ -1,9 +1,7 @@
 using BeerCalculatorClassLibrary;
-using BeerCalculatorClassLibrary.Models;
 using System;
 using System.Drawing;
 using Xunit;
-using Xunit.Sdk;
 
 namespace BeerCalculator.Tests
 {

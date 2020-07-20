@@ -9,7 +9,7 @@
   <Identity
     Name="964833e2-4aed-404a-b621-a43284e770df"
     Publisher="CN=Joel"
-    Version="1.0.1.0" />
+    Version="1.0.2.0" />
 
   <Properties>
     <DisplayName>BeerCalculatorInstaller</DisplayName>

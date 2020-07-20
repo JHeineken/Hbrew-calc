@@ -560,9 +560,6 @@
     <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorClassLibrary\bin\Release\netstandard2.0\BeerCalculatorClassLibrary.dll">
       <PackagePath>BeerCalculatorWinForms\BeerCalculatorClassLibrary.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorClassLibrary\Resources\BeerDB.db">
-      <PackagePath>BeerCalculatorWinForms\Resources\BeerDB.db</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\obj\Release\netcoreapp3.0\BeerCalculatorWinForms.exe">
       <PackagePath>BeerCalculatorWinForms\BeerCalculatorWinForms.exe</PackagePath>
     </AppxPackagedFile>

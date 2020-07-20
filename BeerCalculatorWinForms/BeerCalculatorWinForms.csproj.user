@@ -11,6 +11,7 @@
     <FallbackCulture>en-US</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
     <ShowAllFiles>false</ShowAllFiles>
+    <_LastSelectedProfileId>C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="MainForm.cs">

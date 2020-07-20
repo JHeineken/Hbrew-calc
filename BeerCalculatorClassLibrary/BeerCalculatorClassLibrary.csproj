@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\BeerDB.db" />
+    <None Remove="Resources\SRMtoRGB.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\SRMtoRGB.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.35" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.113.1" />

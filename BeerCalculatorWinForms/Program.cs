@@ -14,6 +14,7 @@ namespace BeerCalculatorWinForms
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
         }
     }
 }

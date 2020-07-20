@@ -7,3 +7,4 @@ C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorClassLibrary\obj\Debug\n
 C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorClassLibrary\obj\Debug\netstandard2.0\BeerCalculatorClassLibrary.dll
 C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorClassLibrary\obj\Debug\netstandard2.0\BeerCalculatorClassLibrary.pdb
 C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorClassLibrary\obj\Debug\netstandard2.0\BeerCalculatorClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorClassLibrary\bin\Debug\netstandard2.0\Resources\SRMtoRGB.csv

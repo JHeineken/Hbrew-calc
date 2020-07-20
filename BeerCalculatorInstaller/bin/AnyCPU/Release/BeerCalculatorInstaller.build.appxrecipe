@@ -254,6 +254,12 @@
     <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\obj\Release\netcoreapp3.0\Msix\BeerCalculatorWinForms.deps.json">
       <PackagePath>BeerCalculatorWinForms\BeerCalculatorWinForms.deps.json</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorClassLibrary\Resources\SRMtoRGB.csv">
+      <PackagePath>BeerCalculatorWinForms\Resources\SRMtoRGB.csv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\BeerDB.db">
+      <PackagePath>BeerCalculatorWinForms\BeerDB.db</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\obj\Release\netcoreapp3.0\BeerCalculatorWinForms.dll">
       <PackagePath>BeerCalculatorWinForms\BeerCalculatorWinForms.dll</PackagePath>
     </AppxPackagedFile>
@@ -437,18 +443,6 @@
     <AppxPackagedFile Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\runtime.win-x86.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x86\native\sni.dll">
       <PackagePath>BeerCalculatorWinForms\runtimes\win-x86\native\sni.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\sqlite\3.13.0\runtimes\linux-x64\native\libsqlite3.so">
-      <PackagePath>BeerCalculatorWinForms\runtimes\linux-x64\native\libsqlite3.so</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\sqlite\3.13.0\runtimes\osx-x64\native\libsqlite3.dylib">
-      <PackagePath>BeerCalculatorWinForms\runtimes\osx-x64\native\libsqlite3.dylib</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\sqlite\3.13.0\runtimes\win7-x64\native\sqlite3.dll">
-      <PackagePath>BeerCalculatorWinForms\runtimes\win7-x64\native\sqlite3.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\sqlite\3.13.0\runtimes\win7-x86\native\sqlite3.dll">
-      <PackagePath>BeerCalculatorWinForms\runtimes\win7-x86\native\sqlite3.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\.nuget\packages\system.data.odbc\4.7.0\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll">
       <PackagePath>BeerCalculatorWinForms\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll</PackagePath>
     </AppxPackagedFile>
@@ -565,6 +559,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorClassLibrary\bin\Release\netstandard2.0\BeerCalculatorClassLibrary.dll">
       <PackagePath>BeerCalculatorWinForms\BeerCalculatorClassLibrary.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorClassLibrary\Resources\BeerDB.db">
+      <PackagePath>BeerCalculatorWinForms\Resources\BeerDB.db</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\source\repos\BeerCalculator\BeerCalculatorWinForms\obj\Release\netcoreapp3.0\BeerCalculatorWinForms.exe">
       <PackagePath>BeerCalculatorWinForms\BeerCalculatorWinForms.exe</PackagePath>

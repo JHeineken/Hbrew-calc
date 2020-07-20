@@ -6,8 +6,6 @@
 		<UseWindowsForms>true</UseWindowsForms>
 		<RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
 		<RootNamespace>BeerCalculator</RootNamespace>
-
-		<Platforms>AnyCPU;x64;x86</Platforms>
 	</PropertyGroup>
 
 	<ItemGroup>
